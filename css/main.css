@@ -9,3 +9,17 @@ h2 {
 h1, h3 {
 	text-align: center;
 }
+
+.container {
+	float: left;
+	width: 300px;
+	min-height: 500px;
+	margin: 0 auto;
+	background-color: steelblue;
+	border: 3px black solid;
+	border-radius: 15px;
+}
+
+.alreadydone {
+	text-decoration: line-through; 
+}

@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title> Shopping List App </title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/main.css">
 </head>
@@ -10,13 +11,20 @@
 	<h1> The Shopping List App </h1>
 	<h3> A Convenient Application for Making Lists of All Types </h3>
 	<form> 
-		Item to Add: <input type="text" name="item"> <input type="image" src="images/cart.png" alt="Add Item">
+		Item to Add: <input type="text" name="item"> <i class="fa fa-cart-plus"> </i>
 	</form>
-
-	<ul>
-		<h2> Shopping List </h2>
-		<li>  </li>
-	</ul>
+	
+	<div class="container"> 
+		<ul>
+			<h2> Shopping List </h2>
+			<li> Potatoes </li> <div class="delete"> - Delete </div> 
+			<div class="done"> - Done <li> Tomatoes </li> <div class="delete"> - Delete </div>
+			<div class="done"> - Done <li> Garlic </li> <div class="delete"> - Delete </div>
+			<div class="done"> - Done <li> Onions </li> <div class="delete"> - Delete </div> 
+			<div class="done"> - Done <li class="alreadydone"> Lettuce </li> <div class="delete"> - Delete </div>
+			<div class="done"> - Done 
+		</ul>
+	</div>
 	
 </body>
 </html>
