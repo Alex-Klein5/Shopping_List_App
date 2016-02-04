@@ -15,16 +15,14 @@
 	</form>
 	
 	<div class="container"> 
+		<h2> Shopping List </h2>
 		<ul>
-			<h2> Shopping List </h2>
-			<li> Potatoes </li> <div class="delete"> - Delete </div> 
-			<div class="done"> - Done <li> Tomatoes </li> <div class="delete"> - Delete </div>
-			<div class="done"> - Done <li> Garlic </li> <div class="delete"> - Delete </div>
-			<div class="done"> - Done <li> Onions </li> <div class="delete"> - Delete </div> 
-			<div class="done"> - Done <li class="alreadydone"> Lettuce </li> <div class="delete"> - Delete </div>
-			<div class="done"> - Done 
+			<li> <input type="checkbox" name="done" class="done"> <span> Potatoes </span> <input type="radio" name="delete" class="delete"> </li>
 		</ul>
 	</div>
+
+	<script src="http://code.jquery.com/jquery.min.js"></script>
+	<script src="js/app.js"></script>
 	
 </body>
 </html>

@@ -6,12 +6,17 @@ h2 {
 	text-decoration: underline;
 }
 
-h1, h3 {
+h1, h2, h3 {
 	text-align: center;
 }
 
+form {
+	text-align: center;
+	margin-bottom: 25px;
+}
+
 .container {
-	float: left;
+	float: center;
 	width: 300px;
 	min-height: 500px;
 	margin: 0 auto;
